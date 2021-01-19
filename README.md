@@ -17,8 +17,7 @@ NLTK is a leading platform for building Python programs to work with human langu
 - Install NLTK using pip ``` pip install nltk ```
 - Install NLTK in anaconda environment ``` conda install -c anaconda nltk ```
 - To installing NLTK data run the python interpreter or new Jupiter notebook in anaconda then type the following commands:
-``` import nltk ```
-``` nltk.download() ```
+``` import nltk ``` then ``` nltk.download() ```
 - A new window should open, showing the NLTK downloader. Next, select the packages or collections you want to download.
 - For more information see the documentation from [here](https://www.nltk.org/data.html)
 
