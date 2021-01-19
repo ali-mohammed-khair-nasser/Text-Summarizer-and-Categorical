@@ -19,8 +19,8 @@ NLTK is a leading platform for building Python programs to work with human langu
 - To installing NLTK data run the python interpreter or new Jupiter notebook in anaconda then type the following commands:
 ``` import nltk ```
 ``` nltk.download() ```
-- A new window should open, showing the NLTK Downloader. select the packages or collections you want to download.
-- For more information see the documentation [here](https://www.nltk.org/data.html)
+- A new window should open, showing the NLTK downloader. Next, select the packages or collections you want to download.
+- For more information see the documentation from [here](https://www.nltk.org/data.html)
 
 ### Pandas Library
 In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
@@ -50,5 +50,3 @@ To run this project make sure you have the required installation of Python, NLTK
 - Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Text-Summarizer-Categorical.git ```
 - Run the ``` main.py ``` file to start Flask server and use the application.
 - You don't need to train classification models on your own. I have trained all model and saved it in the dictionary ``` models ```, but you have the dataset and the Jupiter notebook so you can retrain it if you want.
-
-# How does it work?
