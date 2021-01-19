@@ -2,7 +2,7 @@
 ### Introduction
 Summarization is the task of condensing a piece of text to a shorter version, reducing the size of the initial text while at the same time preserving key informational elements and the meaning of content. Since manual text summarization is a time expensive and generally laborious task, the automatization of the task is gaining increasing popularity and therefore constitutes a strong motivation for academic research. Automatic text summarization is a common problem in machine learning and natural language processing (NLP).
 
-### What is Natural Language Processing ?
+### Natural Language Processing
 Natural Language Processing is the technology used to aid computers to understand the human’s natural language. It’s not an easy task teaching machines to understand how we communicate. Natural Language Processing which usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable.
 
 # Knowledges required for this project
@@ -38,10 +38,17 @@ Scikit-learn is an open source machine learning library that supports supervised
 - Learn Scikit-learn from [scikit-learn.org](https://scikit-learn.org/stable/user_guide.html)
 - Install Scikit-learn using pip ``` pip install scikit-learn ```
 - Install Scikit-learn in anaconda environment ``` conda install -c anaconda scikit-learn ```
+- To save and load models you need to install pickle ``` pip install pickle-mixin ```
 
 ### Flask Framework
+Flask is a popular Python web framework, meaning it is a third-party Python library used for developing web applications.
+- Install Flask on your machine ``` pip install Flask ```
 
 
 # Usage
-To run this project make sure you have the required installation of Python, NLTK with it's data, urllib, bs4, pandas and Scikit-learn then follow the steps given below:
+To run this project make sure you have the required installation of Python, NLTK with it's data, urllib, bs4, pandas, Scikit-learn, and Flask framework then follow the steps given below:
 - Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Text-Summarizer-Categorical.git ```
+- Run the ``` main.py ``` file to start Flask server and use the application.
+- You don't need to train classification models on your own. I have trained all model and saved it in the dictionary ``` models ```, but you have the dataset and the Jupiter notebook so you can retrain it if you want.
+
+# How does it work?
