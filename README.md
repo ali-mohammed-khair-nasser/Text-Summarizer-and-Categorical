@@ -52,7 +52,7 @@ To run this project make sure you have the required installation of Python, NLTK
 # How does it work?
 After reading the input text and the number of sentences from the user and getting the model name and the language, then pass that information to the main function that apply the text summarization and get the right category and for each input text we do the following steps:
 
-### Getting Text Summary 
+# Getting Text Summary 
 In this step will apply text tokenization which is the process of breaking down a stream of text into words, phrases, symbols, or any other meaningful elements called tokens. The main goal of this step is to extract individual words in a sentence. Along with text classifcation, in text mining, it is necessay to incorporate a parser in the pipeline which performs the tokenization of the documents. And after text tokenization will check each token that not in the english or arabic stopwords (like the words: and, or, then, etc) and not in the punctuation (like: %, #, $, etc) then calculate the frequencies for each token. 
 
 After this step we normalize all tokens by diving that frequencies on the maximum one using:
