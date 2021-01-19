@@ -63,7 +63,7 @@ for word in word_frequencies.keys():
 ```
 The next step is to calculate the sentences scores for each sentence so we split the input text again into sentences using ``` nltk.sent_tokenize() ``` function and will calculate that scores in the same way in the frequencies calculation. Finnaly will use ``` heapq.nlargest() ``` function and this function will arrange the sentences in descending order and take the required number of sentences and join it to create the summary.
 
-<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-Categorical/blob/main/images/summarization.png" width="900">
+<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-Categorical/blob/main/images/summarization.png" width="700">
 
 # Getting Text Category
 Here we have alot of works to do for extract the features from that text for use that features in classification algorithms. And in this section, we start to talk about text cleaning since most of urls or texts contain a lot of noise.
