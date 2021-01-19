@@ -82,7 +82,7 @@ This will remove all links from the text and it's include the following:
 - Matches ending query params (even with white spaces, etc).
 
 #### Fixing word lengthening
-- Word lengthening occurs when characters are wrongly repeated. English and arabic words have a max of two repeated characters like the words ```wood, school ``` in english and ``` مؤسسة ``` in arabic.
+- Word lengthening occurs when characters are wrongly repeated. English and arabic words have a max of two repeated characters like the words ``` wood, school ``` in english and ``` مؤسسة ``` in arabic.
 - Additional characters need to ripped off, otherwise we might add misleading information.
 - Replace spicial letters with another one. In arabic language there is many letters can be converted to another like the letters ``` أ ,ا ,ة ,ه ,إ ,آ ```
 
