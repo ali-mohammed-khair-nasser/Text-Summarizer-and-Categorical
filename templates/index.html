@@ -1,0 +1,149 @@
+{% extends 'template.html' %}
+{% block body %}
+<!-- Start main panel -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-5 main-panel">
+            <div class="panel-tabs">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="col-md-4 active">
+                        <div class="inner"><a href="#write_text" aria-controls="write_text" role="tab" data-toggle="tab"><i class="ion-ios-paper"></i><h4>Write text</h4></a></div>
+                    </li>
+                    <li role="presentation" class="col-md-4">
+                        <div class="inner"><a href="#get_from_link" aria-controls="get_from_link" role="tab" data-toggle="tab"><i class="ion-ios-world"></i><h4>Get from link</h4></a></div>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in component-box active" id="write_text">
+                        <form action="/analyze_text" method="POST">
+                            <div class="input-area">
+                                <label>1. Select Language</label>
+                                <div class="radio-group">
+                                    <input type="radio" name="text_language" id="text_lang_english" value="english" checked />
+                                    <label for="text_lang_english">English</label>
+                                    <input type="radio" name="text_language" id="text_lang_arabic" value="arabic" />
+                                    <label for="text_lang_arabic">Arabic</label>
+                                </div> <!-- .radio -->
+                            </div> <!-- .input-area -->
+                            <div class="input-area">
+                                <label>2. Enter Your Text</label>
+                                <textarea name="text_input_text" id="text_input_text" cols="30" rows="10" placeholder="Type your text here to summarize and get category..." required></textarea>
+                            </div> <!-- .input-area -->
+                            <div class="input-area">
+                                <label>3. Select Classifier</label>
+                                <div class="radio-group">
+                                    <input type="radio" name="text_classifier" id="text_ridge_model" value="ridge_model" checked />
+                                    <label for="text_ridge_model">Ridge Model</label>
+                                    <input type="radio" name="text_classifier" id="text_random_forest" value="random_forest_model" />
+                                    <label for="text_random_forest">Random Forest</label>
+                                    <input type="radio" name="text_classifier" id="text_logistic_regression" value="logistic_regression_model" />
+                                    <label for="text_logistic_regression">Logistic Regression</label>
+                                </div> <!-- .radio-group -->
+                                <div class="radio-group">
+                                    <input type="radio" name="text_classifier" id="text_kneighbors_model" value="kneighbors_model" />
+                                    <label for="text_kneighbors_model">Kneighbors Model</label>
+                                    <input type="radio" name="text_classifier" id="text_gaussian_nb" value="gaussian_nb_model" />
+                                    <label for="text_gaussian_nb">Gaussian Nb</label>
+                                    <input type="radio" name="text_classifier" id="text_decision_tree" value="decision_tree_model" />
+                                    <label for="text_decision_tree">Decision Tree</label>
+                                </div> <!-- .radio-group -->
+                            </div> <!-- .input-area -->
+                            <div class="input-area">
+                                <label>4. How Many Sentences?</label>
+                                <div class="number">
+                                    <span class="minus"><i class="ion-ios-arrow-down"></i></span>
+                                    <input type="text" name="text_sentences_number" value="10" />
+                                    <span class="plus"><i class="ion-ios-arrow-up"></i></span>
+                                </div>
+                            </div> <!-- .input-area -->
+                            <input type="submit" value="Get Summary & Category" />
+                        </form>
+                    </div> <!-- #write_text -->
+                    <div role="tabpanel" class="tab-pane fade component-box" id="get_from_link">
+                        <form action="/analyze_url" method="POST">
+                            <div class="input-area">
+                                <label>1. Select Language</label>
+                                <div class="radio-group">
+                                    <input type="radio" name="url_language" id="url_lang_english" value="english" checked />
+                                    <label for="url_lang_english">English</label>
+                                    <input type="radio" name="url_language" id="url_lang_arabic" value="arabic" />
+                                    <label for="url_lang_arabic">Arabic</label>
+                                </div> <!-- .radio -->
+                            </div> <!-- .input-area -->
+                            <div class="input-area">
+                                <label>2. Enter A Link</label>
+                                <input type="text" name="url_input_text" placeholder="Get text from external website..." required autocomplete="off"/>
+                            </div> <!-- .input-area -->
+                            <div class="input-area">
+                                <label>3. Select Classifier</label>
+                                <div class="radio-group">
+                                    <input type="radio" name="url_classifier" id="url_ridge_model" value="ridge_model" checked />
+                                    <label for="url_ridge_model">Ridge Model</label>
+                                    <input type="radio" name="url_classifier" id="url_random_forest" value="random_forest_model" />
+                                    <label for="url_random_forest">Random Forest</label>
+                                    <input type="radio" name="url_classifier" id="url_logistic_regression" value="logistic_regression_model" />
+                                    <label for="url_logistic_regression">Logistic Regression</label>
+                                </div> <!-- .radio-group -->
+                                <div class="radio-group">
+                                    <input type="radio" name="url_classifier" id="url_kneighbors_model" value="kneighbors_model" />
+                                    <label for="url_kneighbors_model">Kneighbors Model</label>
+                                    <input type="radio" name="url_classifier" id="url_gaussian_nb" value="gaussian_nb_model" />
+                                    <label for="url_gaussian_nb">Gaussian Nb</label>
+                                    <input type="radio" name="url_classifier" id="url_decision_tree" value="decision_tree_model" />
+                                    <label for="url_decision_tree">Decision Tree</label>
+                                </div> <!-- .radio-group -->
+                            </div> <!-- .input-area -->
+                            <div class="input-area">
+                                <label>4. How Many Sentences?</label>
+                                <div class="number">
+                                    <span class="minus"><i class="ion-ios-arrow-down"></i></span>
+                                    <input type="text" name="url_sentences_number" value="10" />
+                                    <span class="plus"><i class="ion-ios-arrow-up"></i></span>
+                                </div>
+                            </div> <!-- .input-area -->
+                            <input type="submit" value="Get Summary & Category" />
+                        </form>
+                    </div> <!-- #get_from_link -->
+                </div> <!-- .tab-content -->
+            </div> <!-- .panel-tabs -->
+        </div> <!-- .main-panel -->
+        {% if text_summary %}
+        <div class="output-panel col-md-7">
+            <div class="component-box normal-input-text">
+                <label>Your Input Text</label>
+                <p>{{ input_text }}</p>
+            </div>
+            <div class="component-box summary-text">
+                <label>Text Summary</label>
+                <p>{{ text_summary }}</p>
+                <br />
+                <label>Text Category</label>
+                <div class="category">
+                    {% if text_category == 'Econimy & Buisness' %}
+                        <span class="green active">Econimy & Buisness</span>
+                    {% endif %}
+                    {% if text_category == 'Diverse News' %}
+                        <span class="blue active">Diverse News</span>
+                    {% endif %}
+                    {% if text_category == 'Politic' %}
+                        <span class="red active">Politic</span>
+                    {% endif %}
+                    {% if text_category == 'Sport' %}
+                        <span class="green active">Sport</span>
+                    {% endif %}
+                    {% if text_category == 'Technology' %}
+                        <span class="red active">Technology</span>
+                    {% endif %}
+                </div> <!-- .category -->
+            </div>
+        </div> <!-- .output-panel -->
+        {% else %}
+        <div class="welcome-panel col-md-7">
+            <img src="{{ url_for('static', filename='images/home-bg.svg') }}" alt="Welcome Screen" />
+        </div> <!-- .output-panel -->
+        {% endif %}
+    </div> <!-- .row -->
+</div>
+<!-- End main panel -->
+{% endblock %}

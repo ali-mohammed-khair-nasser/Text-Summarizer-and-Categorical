@@ -1,0 +1,91 @@
+// Colors variables
+$--color-white: #FFF;
+$--color-off-white: #EDF2F8;
+$--color-blue: #0FBCF9;
+$--color-light-gray: #F9F9FB;
+$--color-gray: #9293B0;
+$--color-dark-blue: #182D37;
+$--color-green: #0BE881;
+
+// Other variables
+$--font-name: 'Roboto', sans-serif, Arial, Tahoma;
+$--border-radius: 7px;
+
+// Add prefixes to CSS3 properties function
+@mixin add_prefixes( $--property-name, $--property-value ) {
+    @each $--prefix in (-webkit- -moz- -o- -ms-) { #{ $--prefix }#{ $--property-name }: $--property-value; }
+    #{ $--property-name }: $--property-value;
+}
+
+// Start general style
+* { padding: 0; margin: 0; font-family: $--font-name; @include add_prefixes(box-sizing, border-box); }
+body { background-color: $--color-off-white; }
+a, a:hover, a:visited, a:focus { text-decoration: none; }
+img { width: 100%; height: auto; }
+p { color: $--color-gray; font-weight: 400; line-height: 25px; }
+label { color: $--color-dark-blue; font-weight: 700; text-transform: capitalize; font-size: 18px; display: block; }
+.container-fluid { min-height: 100vh; padding: 35px 30px; overflow: hidden; padding-bottom: 0; }
+.component-box { padding: 30px; padding-top: 25px; background-color: $--color-white; @include add_prefixes(border-radius, $--border-radius); height: 100%; margin-bottom: 30px; overflow: hidden;
+    &:last-of-type { margin-bottom: 0; }
+}
+%transitions { @include add_prefixes(transition, all .3s ease-in-out); }
+%borderedBox { border: 1px solid #E2E2EA; }
+// End general style
+
+// Start main panel tabs
+.main-panel { height: 100%;
+    .panel-tabs { height: 100%;
+        ul { margin: 0 -10px; border: none; margin-bottom: 5px;
+            li { padding: 15px 10px; padding-top: 0;
+                .inner { padding: 20px 0; @include add_prefixes(border-radius, $--border-radius); @extend %transitions; cursor: pointer;
+                    h4, i { margin: 5px; text-align: center; text-transform: uppercase; font-size: 17px; color: $--color-dark-blue; display: block; }
+                    i { font-size: 26px; margin-bottom: -4px; margin-top: -3px; }
+                }
+            } 
+            .active .inner { background-color: $--color-blue;
+                h4, i { color: $--color-white; }
+            }
+        }
+        .tab-content { height: 100%;
+            .input-area { margin-bottom: 30px;
+                textarea, input { width: 100%; padding: 10px; @include add_prefixes(border-radius, $--border-radius); @extend %borderedBox; resize: none; outline: none; background-color: $--color-light-gray; @extend %transitions; margin-top: 10px; height: 45px;
+                    &::placeholder { color: $--color-gray; opacity: .6; }
+                    &:focus { background-color: $--color-white; border-color: $--color-blue; }
+                }
+                textarea { height: 325px; }
+                .radio-group { display: flex; height: 45px; margin-top: 10px;
+                    input[type="radio"] { visibility: hidden; height: 0; width: 0; 
+                        &:checked + label { background-color: $--color-white; color: $--color-blue; border-color: $--color-blue; }
+                    }
+                    label { display: flex; flex: auto; vertical-align: middle; align-items: center; justify-content: center; text-align: center; cursor: pointer; background-color: $--color-light-gray; color: $--color-gray; padding: 5px 10px; @include add_prefixes(border-radius, $--border-radius); @extend %transitions; user-select: none; margin-right: 10px; @extend %borderedBox; font-size: 14px; font-weight: 400; margin-bottom: 0;
+                        &:last-of-type { margin-right: 0; }
+                    }
+                }
+                .number { overflow: hidden; display: flex; width: 260px; height: 45px; margin: -5px; margin-top: 10px;
+                    .minus, .plus { width: 45px; height: 45px; background: $--color-light-gray; @include add_prefixes(border-radius, $--border-radius); display: flex; flex: auto; vertical-align: middle; align-items: center; justify-content: center; text-align: center; @extend %borderedBox; display: inline-block; cursor: pointer; margin: 0 10px; line-height: 45px; font-size: 20px; @extend %transitions;
+                        &:hover { background-color: $--color-blue; border-color: $--color-blue; color: $--color-white; }
+                    }
+                    input { height: 45px; width: 120px; display: flex; flex: auto; vertical-align: middle; align-items: center; justify-content: center; text-align: center; font-size: 18px; font-weight: 700; @extend %borderedBox; @include add_prefixes(border-radius, $--border-radius); display: inline-block; margin: 0; }
+                }
+            }
+            input[type="submit"] { padding: 0 100px; border: none; outline: none; height: 45px; line-height: 45px; background-color: $--color-blue; color: $--color-white; @extend %transitions; @include add_prefixes(border-radius, $--border-radius); text-align: center; position: relative; left: 50%; @include add_prefixes(transform, translateX(-50%)); font-size: 16px; margin-top: 12px;
+                &:hover { background-color: $--color-green; }
+            }
+        } 
+    }
+}
+// End main panel tabs
+
+// Start output panels
+.output-panel { height: 100vh; overflow: hidden;
+    .normal-input-text { height: calc(65% - 30px); overflow: auto; }
+    .summary-text { height: calc(35% - 30px); overflow: auto; 
+        span { padding: 0 100px; display: none; margin-top: 10px; @include add_prefixes(border-radius, $--border-radius); color: $--color-white; font-size: 16px; height: 45px; line-height: 45px; }
+        span.active { display: inline-block; }
+        .red { background-color: #dc2f02; }
+        .green { background-color: $--color-green; }
+        .blue { background-color: $--color-blue; }
+    }
+}
+.welcome-panel { height: calc(100vh - 35px); overflow: hidden; padding: 70px; padding-top: 90px; user-select: none; }
+// End output panels
