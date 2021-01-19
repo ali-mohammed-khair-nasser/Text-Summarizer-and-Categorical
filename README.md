@@ -64,15 +64,15 @@ for word in word_frequencies.keys():
 ```
 The next step is to calculate the sentences scores for each sentence so we split the input text again into sentences using ``` nltk.sent_tokenize() ``` function and will calculate that scores in the same way in the frequencies calculation. Finnaly will use ``` heapq.nlargest() ``` function and this function will arrange the sentences in descending order and take the required number of sentences and join it to create the summary.
 
-### Getting Text Category
+# Getting Text Category
 Here we have alot of works to do for extract the features from that text for use that features in classification algorithms. And in this section, we start to talk about text cleaning since most of urls or texts contain a lot of noise.
 
-#### Text Cleaning and Pre-processing
+### Text Cleaning and Pre-processing
 In Natural Language Processing (NLP), most of the text and documents contain many words that are redundant for text classification, such as stopwords, miss-spellings, slangs, and etc. In this section, we briefly explain some techniques and methods for text cleaning and pre-processing text documents. In many algorithms like statistical and probabilistic learning methods, noise and unnecessary features can negatively affect the overall perfomance. So, elimination of these features are extremely important. We will do multi steps to clear the input text and this steps is:
 
 #### Delete Links
 This will remove all links from the text and it's include the following:
-- Matches http protocols like ``` http:// or https:// ```
+- Matches http protocols like ``` http:// ``` or ``` https:// ```
 - Match optional whitespaces after http protocols.
 - Optionally matches including the ``` www. ``` or not.
 - Optionally matches whitespaces in the links.
@@ -84,7 +84,7 @@ This will remove all links from the text and it's include the following:
 #### Fixing word lengthening
 - Word lengthening occurs when characters are wrongly repeated. English and arabic words have a max of two repeated characters like the words ```wood, school ``` in english and ``` مؤسسة ``` in arabic.
 - Additional characters need to ripped off, otherwise we might add misleading information.
-- Replace spicial letters with another one. In arabic language there is many letters can be converted to another liek ``` أ ,ا ,ة ,ه ,إ ,آ ```
+- Replace spicial letters with another one. In arabic language there is many letters can be converted to another like the letters ``` أ ,ا ,ة ,ه ,إ ,آ ```
 
 #### Delete bad symbols
 Another issue of text cleaning as a pre-processing step is noise removal. Text documents generally contains characters like punctuations or special characters and they are not necessary for text mining or classification purposes. Although punctuation is critical to understand the meaning of the sentence, but it can affect the classification algorithms negatively.
@@ -100,16 +100,13 @@ Text Stemming is modifying a word to obtain its variants using different linguis
 #### Convert to Lowercase 
 Sentences can contain a mixture of uppercase and lower case letters. Multiple sentences make up a text document. To reduce the problem space, the most common approach is to reduce everything to lower case. This brings all words in a document in same space, but it often changes the meaning of some words, such as "US" to "us" where first one represents the United States of America and second one is a pronoun. To solve this, slang and abbreviation converters can be applied.
 
-#### Get TF-IDF features
+### Get TF-IDF features
 The second approach extends the bag-of-words framework by taking into account total frequencies of words in the corpora. Here we conver our text to numiric values so the AI models can deal with it. And this technique helps to penalize too frequent words and provide better features space. 
 
 The advantages of this feature extraction technique is:
 - Easy to compute.
 - Easy to compute the similarity between 2 documents using it.
 - Basic metric to extract the most descriptive terms in a document.
-- Common words do not affect the results due to IDF ``` e.g. am, is, etc ```
+- Common words do not affect the results due to IDF ``` am, is, etc ```
 
-#### Predict The Right Category Using Pre-trained Models
-
-
-
+### Predict The Right Category Using Pre-trained Models
