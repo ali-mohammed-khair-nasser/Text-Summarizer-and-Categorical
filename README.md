@@ -18,7 +18,7 @@ NLTK is a leading platform for building Python programs to work with human langu
 - Install NLTK in anaconda environment ``` conda install -c anaconda nltk ```
 - To installing NLTK data run the python interpreter or new Jupiter notebook in anaconda then type the following commands:
 ``` import nltk ``` then ``` nltk.download() ```
-- A new window should open, showing the NLTK downloader. Next, select the packages or collections you want to download. And for more information see the documentation from [here](https://www.nltk.org/data.html)
+- A new window should open, showing the NLTK downloader. Next, select the packages or collections you want to download. And for more information see the documentation from [nltk.org](https://www.nltk.org/data.html)
 
 ### Pandas Library
 In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
