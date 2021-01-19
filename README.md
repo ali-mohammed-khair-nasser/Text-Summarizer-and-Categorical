@@ -26,10 +26,10 @@ In computer programming, pandas is a software library written for the Python pro
 - Install Pandas using pip ``` pip install pandas ```
 - Install Pandas in anaconda environment ``` conda install -c anaconda pandas ```
 
-### URLlib & Bs4 Libraries
+### Urllib & Beautifulsoup4 Libraries
 This two libraries help in working with URL and fetching data from external websites to add it to the main program for the summarize and categorize.
 - Install urllib ``` pip install urllib3 ```
-- Install bs4 ``` pip install beautifulsoup4 ```
+- Install beautifulsoup4 ``` pip install beautifulsoup4 ```
 
 ### Scikit Learn
 Scikit-learn is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities.
@@ -48,3 +48,6 @@ To run this project make sure you have the required installation of Python, NLTK
 - Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Text-Summarizer-Categorical.git ```
 - Run the ``` main.py ``` file to start Flask server and use the application.
 - You don't need to train classification models on your own. I have trained all model and saved it in the dictionary ``` models ```, but you have the datasets in ``` dataset ``` directory and the Jupiter notebook ``` NLTK Summarizer.ipynb ``` so you can retrain it if you want.
+
+# How does it work?
+After reading the input text and the number of sentences from the user and getting the model name and the language, then pass that information to the main function that apply the text summarization and get the right category and for each input text we do the following steps:
