@@ -80,18 +80,16 @@ This will remove all links from the text and it's include the following:
 - Any remaining path at the end of the url followed by an optional ending.
 - Matches ending query params (even with white spaces, etc).
 
-#### Fixing word lengthening
+#### Fixing Word Lengthening
 - Word lengthening occurs when characters are wrongly repeated. English and arabic words have a max of two repeated characters like the words ``` wood, school ``` in english and ``` مؤسسة ``` in arabic.
 - Additional characters need to ripped off, otherwise we might add misleading information.
 - Replace spicial letters with another one. In arabic language there is many letters can be converted to another like the letters ``` أ ,ا ,ة ,ه ,إ ,آ ```
 
-#### Delete bad symbols
+#### Delete Bad Symbols & Stopwords
 Another issue of text cleaning as a pre-processing step is noise removal. Text documents generally contains characters like punctuations or special characters and they are not necessary for text mining or classification purposes. Although punctuation is critical to understand the meaning of the sentence, but it can affect the classification algorithms negatively.
 - Example of bad symbols ``` /(){}\[\]|@âÂ,;\?\'\"\*…؟–’،!&\+-:؛- ```
 - Also remove arabic text vowelization.
-
-#### Delete stopwords
-Like prepositions and hyphens words. for example ``` and, in, or, etc ```
+- Stopwords like prepositions and hyphens words. for example ``` and, in, or, etc ```
 
 #### Text Stemming
 Text Stemming is modifying a word to obtain its variants using different linguistic processeses like affixation (addition of affixes). Will apply for arabic text only becouse it will give us better results when we train the models. For example, the stem of the word ``` التعليمية ``` is ``` علم ```
@@ -101,7 +99,6 @@ Sentences can contain a mixture of uppercase and lower case letters. Multiple se
 
 ### Get TF-IDF features
 The second approach extends the bag-of-words framework by taking into account total frequencies of words in the corpora. Here we conver our text to numiric values so the AI models can deal with it. And this technique helps to penalize too frequent words and provide better features space. 
-
 The advantages of this feature extraction technique is:
 - Easy to compute.
 - Easy to compute the similarity between 2 documents using it.
