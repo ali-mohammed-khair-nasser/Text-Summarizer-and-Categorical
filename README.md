@@ -47,4 +47,4 @@ Flask is a popular Python web framework, meaning it is a third-party Python libr
 To run this project make sure you have the required installation of Python, NLTK with it's data, urllib, bs4, pandas, Scikit-learn, and Flask framework then follow the steps given below:
 - Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Text-Summarizer-Categorical.git ```
 - Run the ``` main.py ``` file to start Flask server and use the application.
-- You don't need to train classification models on your own. I have trained all model and saved it in the dictionary ``` models ```, but you have the dataset and the Jupiter notebook so you can retrain it if you want.
+- You don't need to train classification models on your own. I have trained all model and saved it in the dictionary ``` models ```, but you have the datasets in ``` dataset ``` directory and the Jupiter notebook ``` NLTK Summarizer.ipynb ``` so you can retrain it if you want.
