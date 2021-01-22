@@ -114,6 +114,9 @@ One of earlier classification algorithm for text and data mining is decision tre
 #### Random Forest
 Random forests or random decision forests technique is an ensemble learning method for text classification. This method was introduced by T. Kam Ho in 1995 for first time which used t trees in parallel. This technique was later developed by L. Breiman in 1999 that they found converged for RF as a margin measure.
 
+#### K-Nearest Neighbors
+The k-nearest neighbors algorithm (kNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many researches in the past decades.
+
 #### Models Compares
 Model Name | Accuracy on English Data | Accuracy on Arabic Data
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -122,3 +125,4 @@ Random Forest | 94.3% | 86.7%
 Ridge Model | 98.3% | 93.1%
 Logistic Regression | 98.9% | 92.1%
 Gaussian NB | 94.6% | 88.2%
+K-Neighbors | 95.9% | 91.3%
