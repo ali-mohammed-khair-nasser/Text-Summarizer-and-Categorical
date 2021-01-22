@@ -106,3 +106,18 @@ The advantages of this feature extraction technique is:
 - Common words do not affect the results due to IDF ``` am, is, etc ```
 
 ### Predict The Right Category Using Pre-trained Models
+I did trained 6 different models for both arabic and english datasets and all of this models built-in in the sklearn library, and this models give me a heigh accuracy score for the data classification. There is a simple comparison between this models:
+
+#### Decision Tree
+One of earlier classification algorithm for text and data mining is decision tree. Decision tree classifiers (DTC's) are used successfully in many diverse areas of classification. The structure of this technique includes a hierarchical decomposition of the data space (only train dataset). Decision tree as classification task was introduced by D. Morgan and developed by JR. Quinlan. The main idea is creating trees based on the attributes of the data points, but the challenge is determining which attribute should be in parent level and which one should be in child level. To solve this problem, De Mantaras introduced statistical modeling for feature selection in tree.
+
+#### Random Forest
+Random forests or random decision forests technique is an ensemble learning method for text classification. This method was introduced by T. Kam Ho in 1995 for first time which used t trees in parallel. This technique was later developed by L. Breiman in 1999 that they found converged for RF as a margin measure.
+
+Model Name | Accuracy on English Data | Accuracy on Arabic Data
+:-------------------------:|:-------------------------:|:-------------------------:
+Decision Tree | 87.9% | 80.9%
+Random Forest | 94.3% | 86.7%
+Ridge Model | 98.3% | 93.1%
+Logistic Regression | 98.9% | 92.1%
+Gaussian NB | 94.6% | 88.2%
