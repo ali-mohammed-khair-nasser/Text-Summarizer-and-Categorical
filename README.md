@@ -111,8 +111,12 @@ I did trained 6 different models for both arabic and english datasets and all of
 #### 1. Decision Tree
 One of the earlier classification algorithms for text and data mining is a decision tree. Decision tree classifiers (DTC's) are used successfully in many diverse areas of classification. The structure of this technique includes a hierarchical decomposition of the data space (only train dataset). Decision tree as classification task was introduced by D. Morgan and developed by JR. Quinlan. The main idea is creating trees based on the attributes of the data points, but the challenge is determining which attribute should be at the parent level and which one should be at the child level. To solve this problem, De Mantaras introduced statistical modeling for feature selection in tree. [More info](https://scikit-learn.org/stable/modules/tree.html)
 
+<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/tree.png" width="1200">
+
 #### 2. Random Forest
 Random forests or random decision forests technique is an ensemble learning method for text classification. This method was introduced by T. Kam Ho in 1995 for the first time which used t trees in parallel. This technique was later developed by L. Breiman in 1999 that they found converged for RF as a margin measure. [More info](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+
+<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/random_forest.png" width="1200">
 
 #### 3. K-Nearest Neighbors
 The k-nearest neighbor's algorithm (KNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many kinds of research in the past decades. [More info](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
