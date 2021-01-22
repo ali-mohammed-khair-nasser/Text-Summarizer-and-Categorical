@@ -118,17 +118,17 @@ Random forests or random decision forests technique is an ensemble learning meth
 The k-nearest neighbors algorithm (kNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many researches in the past decades.
 
 #### Ridge Model
-Working on it :)
+*Working on it :)
 
 #### Logistic Regression
-Working on it :)
+*Working on it :)
 
 #### Gaussian NB
-Working on it :)
+*Working on it :)
 
 #### Models Compares
 Model Name | Accuracy on English Data | Accuracy on Arabic Data
-:-------------------------------:|:-------------------------:|:-------------------------:
+:-------------------------:|:-------------------------:|:-------------------------:
 Decision Tree | 87.9% | 80.9%
 Random Forest | 94.3% | 86.7%
 K-Neighbors | 95.9% | 91.3%
