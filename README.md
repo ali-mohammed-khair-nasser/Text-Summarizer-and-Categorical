@@ -114,6 +114,7 @@ One of earlier classification algorithm for text and data mining is decision tre
 #### Random Forest
 Random forests or random decision forests technique is an ensemble learning method for text classification. This method was introduced by T. Kam Ho in 1995 for first time which used t trees in parallel. This technique was later developed by L. Breiman in 1999 that they found converged for RF as a margin measure.
 
+#### Models Compares
 Model Name | Accuracy on English Data | Accuracy on Arabic Data
 :-------------------------:|:-------------------------:|:-------------------------:
 Decision Tree | 87.9% | 80.9%
