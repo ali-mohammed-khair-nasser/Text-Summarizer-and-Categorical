@@ -109,28 +109,28 @@ The advantages of this feature extraction technique is:
 I did trained 6 different models for both arabic and english datasets and all of this models built-in in the sklearn library, and this models give me a heigh accuracy score for the data classification. There is a simple comparison between this models:
 
 #### 1. Decision Tree
-One of the earlier classification algorithms for text and data mining is a decision tree. Decision tree classifiers (DTC's) are used successfully in many diverse areas of classification. The structure of this technique includes a hierarchical decomposition of the data space (only train dataset). Decision tree as classification task was introduced by D. Morgan and developed by JR. Quinlan. The main idea is creating trees based on the attributes of the data points, but the challenge is determining which attribute should be at the parent level and which one should be at the child level. To solve this problem, De Mantaras introduced statistical modeling for feature selection in tree. [More info](https://scikit-learn.org/stable/modules/tree.html)
+One of the earlier classification algorithms for text and data mining is a decision tree. Decision tree classifiers (DTC's) are used successfully in many diverse areas of classification. The structure of this technique includes a hierarchical decomposition of the data space (only train dataset). Decision tree as classification task was introduced by D. Morgan and developed by JR. Quinlan. The main idea is creating trees based on the attributes of the data points, but the challenge is determining which attribute should be at the parent level and which one should be at the child level. To solve this problem, De Mantaras introduced statistical modeling for feature selection in tree. For more information about decision tree click [here](https://scikit-learn.org/stable/modules/tree.html)
 
 <img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/tree.png" width="1200">
 
 #### 2. Random Forest
-Random forests or random decision forests technique is an ensemble learning method for text classification. This method was introduced by T. Kam Ho in 1995 for the first time which used t trees in parallel. This technique was later developed by L. Breiman in 1999 that they found converged for RF as a margin measure. [More info](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+Random forests or random decision forests technique is an ensemble learning method for text classification. This method was introduced by T. Kam Ho in 1995 for the first time which used t trees in parallel. This technique was later developed by L. Breiman in 1999 that they found converged for RF as a margin measure. For more information about random forest click [here](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 <img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/random_forest.png" width="1200">
 
 #### 3. K-Nearest Neighbors
-The k-nearest neighbor's algorithm (KNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many kinds of research in the past decades. [More info](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+The k-nearest neighbor's algorithm (KNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many kinds of research in the past decades. For more information about KNN click [here](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 
 <img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/knn.png" width="1200">
 
-#### 4. Ridge Model
-Ridge regression is a way to create a parsimonious model when the number of predictor variables in a set exceeds the number of observations, or when a data set has multicollinearity (correlations between predictor variables). Tikhivov’s method is basically the same as ridge regression, except that Tikhonov’s has a larger set. It can produce solutions even when your data set contains a lot of statistical noise (unexplained variation in a sample). [More info](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html)
+#### 4. Ridge Classifier
+Ridge regression is a way to create a parsimonious model when the number of predictor variables in a set exceeds the number of observations, or when a data set has multicollinearity (correlations between predictor variables). Tikhivov’s method is basically the same as ridge regression, except that Tikhonov’s has a larger set. It can produce solutions even when your data set contains a lot of statistical noise (unexplained variation in a sample). For more information about ridge classifier click [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html)
 
 #### 5. Logistic Regression
-Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval, or ratio-level independent variables. [More info](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval, or ratio-level independent variables. For more information about logistic regression click [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 
 #### 6. Gaussian Naive Bayes
-One assumption used in the (NLP) is the strong independence assumptions between the features. These classifiers assume that the value of a particular feature is independent of the value of any other feature. In a supervised learning situation, Naive Bayes Classifiers are trained very efficiently. [More info](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)
+One assumption used in the (NLP) is the strong independence assumptions between the features. These classifiers assume that the value of a particular feature is independent of the value of any other feature. In a supervised learning situation, Naive Bayes Classifiers are trained very efficiently. For more information about Gaussian NB click [here](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)
 
 ### Compare Models Results On The Used Data
 Model Name | Accuracy on English Data | Accuracy on Arabic Data
@@ -138,6 +138,6 @@ Model Name | Accuracy on English Data | Accuracy on Arabic Data
 Decision Tree | 87.9% | 80.9%
 Random Forest | 94.3% | 86.7%
 K-Nearest Neighbors | 95.9% | 91.3%
-Ridge Model | 98.3% | 93.1%
+Ridge Classifier | 98.3% | 93.1%
 Logistic Regression | 98.9% | 92.1%
 Gaussian Naive Bayes | 94.6% | 88.2%
