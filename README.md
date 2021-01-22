@@ -128,7 +128,7 @@ One assumption used in the (NLP) is the strong independence assumptions between 
 
 ### Compare Models Results On The Used Data
 Model Name | Accuracy on English Data | Accuracy on Arabic Data
-:-------------------------:|:-------------------------:|:-------------------------:
+-------------------------|:-------------------------:|:-------------------------:
 Decision Tree | 87.9% | 80.9%
 Random Forest | 94.3% | 86.7%
 K-Neighbors | 95.9% | 91.3%
