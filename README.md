@@ -127,11 +127,11 @@ Logistic regression is the appropriate regression analysis to conduct when the d
 One assumption used in the (NLP) is the strong independence assumptions between the features. These classifiers assume that the value of a particular feature is independent of the value of any other feature. In a supervised learning situation, Naive Bayes Classifiers are trained very efficiently. [More info](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)
 
 ### Compare Models Results On The Used Data
-| Model Name | Accuracy on English Data | Accuracy on Arabic Data
-| -------------------------|:-------------------------:|:-------------------------:
-| Decision Tree | 87.9% | 80.9%
-| Random Forest | 94.3% | 86.7%
-| K-Nearest Neighbors | 95.9% | 91.3%
-| Ridge Model | 98.3% | 93.1%
-| Logistic Regression | 98.9% | 92.1%
-| Gaussian Naive Bayes | 94.6% | 88.2%
+Model Name | Accuracy on English Data | Accuracy on Arabic Data
+:-------------------------:|:-------------------------:|:-------------------------:
+Decision Tree | 87.9% | 80.9%
+Random Forest | 94.3% | 86.7%
+K-Nearest Neighbors | 95.9% | 91.3%
+Ridge Model | 98.3% | 93.1%
+Logistic Regression | 98.9% | 92.1%
+Gaussian Naive Bayes | 94.6% | 88.2%
