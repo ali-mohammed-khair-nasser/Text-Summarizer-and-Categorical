@@ -121,6 +121,8 @@ Random forests or random decision forests technique is an ensemble learning meth
 #### 3. K-Nearest Neighbors
 The k-nearest neighbor's algorithm (KNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many kinds of research in the past decades. [More info](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 
+<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/knn.png" width="1200">
+
 #### 4. Ridge Model
 Ridge regression is a way to create a parsimonious model when the number of predictor variables in a set exceeds the number of observations, or when a data set has multicollinearity (correlations between predictor variables). Tikhivov’s method is basically the same as ridge regression, except that Tikhonov’s has a larger set. It can produce solutions even when your data set contains a lot of statistical noise (unexplained variation in a sample). [More info](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html)
 
