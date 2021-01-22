@@ -118,16 +118,17 @@ Random forests or random decision forests technique is an ensemble learning meth
 
 <img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/random_forest.png" width="1200">
 
-#### 3. K-Nearest Neighbors
+#### 3. Ridge Classifier
+Ridge regression is a way to create a parsimonious model when the number of predictor variables in a set exceeds the number of observations, or when a data set has multicollinearity (correlations between predictor variables). Tikhivov’s method is basically the same as ridge regression, except that Tikhonov’s has a larger set. It can produce solutions even when your data set contains a lot of statistical noise (unexplained variation in a sample). For more information about ridge classifier click [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html)
+
+#### 4. Logistic Regression
+Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval, or ratio-level independent variables. For more information about logistic regression click [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+
+
+#### 5. K-Nearest Neighbors
 The k-nearest neighbor's algorithm (KNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many kinds of research in the past decades. For more information about KNN click [here](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 
 <img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/knn.png" width="1200">
-
-#### 4. Ridge Classifier
-Ridge regression is a way to create a parsimonious model when the number of predictor variables in a set exceeds the number of observations, or when a data set has multicollinearity (correlations between predictor variables). Tikhivov’s method is basically the same as ridge regression, except that Tikhonov’s has a larger set. It can produce solutions even when your data set contains a lot of statistical noise (unexplained variation in a sample). For more information about ridge classifier click [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html)
-
-#### 5. Logistic Regression
-Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval, or ratio-level independent variables. For more information about logistic regression click [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 
 #### 6. Gaussian Naive Bayes
 One assumption used in the (NLP) is the strong independence assumptions between the features. These classifiers assume that the value of a particular feature is independent of the value of any other feature. In a supervised learning situation, Naive Bayes Classifiers are trained very efficiently. For more information about Gaussian NB click [here](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)
@@ -137,7 +138,7 @@ Model Name | Accuracy on English Data | Accuracy on Arabic Data
 :-------------------------:|:-------------------------:|:-------------------------:
 Decision Tree | 87.9% | 80.9%
 Random Forest | 94.3% | 86.7%
-K-Nearest Neighbors | 95.9% | 91.3%
 Ridge Classifier | 98.3% | 93.1%
 Logistic Regression | 98.9% | 92.1%
+K-Nearest Neighbors | 95.9% | 91.3%
 Gaussian Naive Bayes | 94.6% | 88.2%
