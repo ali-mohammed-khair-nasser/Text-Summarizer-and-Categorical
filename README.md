@@ -145,7 +145,7 @@ Gaussian Naive Bayes | 94.6% | 88.2%
 
 # References
 Here is a list of sources I used to build this project:
-- Dataset used to train the models from [kaggle.com](https://www.kaggle.com/). No need to download the datasets, it provided with this project.
+- Dataset used to train the models from [kaggle](https://www.kaggle.com/). No need to download the datasets, it provided with this project.
 - NLTK tutorial book from [nltk.org](https://www.nltk.org/book/)
 - Scikit learn tutorials from [scikit-learn.org](https://scikit-learn.org/stable/user_guide.html)
 - News classification tutorial on [youtube.com](https://www.youtube.com/watch?v=dtK7Xhn8XjY)
