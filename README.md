@@ -142,3 +142,13 @@ Ridge Classifier | 98.3% | 93.1%
 Logistic Regression | 98.9% | 92.1%
 K-Nearest Neighbors | 95.9% | 91.3%
 Gaussian Naive Bayes | 94.6% | 88.2%
+
+# References
+Here is a list of sources I used to build this project:
+- Dataset used to train the models from [kaggle.com](https://www.kaggle.com/), but you don't need to download it becouse it provided with this project.
+- NLTK tutorial book from [nltk.org](https://www.nltk.org/book/)
+- Scikit learn tutorials from [scikit-learn.org](https://scikit-learn.org/stable/user_guide.html)
+- News classification tutorial on [youtube.com](https://www.youtube.com/watch?v=dtK7Xhn8XjY)
+- Text Preprocessing for NLP (Natural Language Processing) in [medium.com](https://medium.com/analytics-vidhya/text-preprocessing-for-nlp-natural-language-processing-beginners-to-master-fd82dfecf95)
+- Building a Text Summarizer Flask App on [youtube.com](https://www.youtube.com/watch?v=xvLQdP549NA&list=PLJ39kWiJXSiyAFG2W3CUPWaLhvR5CQmTd&index=9). I watched 70% of this video.
+- Flask Tutorials playlist [here](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX).
