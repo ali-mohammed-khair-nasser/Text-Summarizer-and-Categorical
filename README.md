@@ -105,7 +105,7 @@ The advantages of this feature extraction technique is:
 - Basic metric to extract the most descriptive terms in a document.
 - Common words do not affect the results due to IDF ``` am, is, etc ```
 
-And here is a simple example of converting words into a numiric values using the TF-IDF vectorizer:
+And here is a simple example of converting the words in each sentences in the dataset or the input text into a numiric values using the TF-IDF vectorizer:
 
 <img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/tfidf.png" width="1200">
 
