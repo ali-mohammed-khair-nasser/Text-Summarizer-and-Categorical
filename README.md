@@ -124,7 +124,7 @@ Ridge regression is a way to create a parsimonious model when the number of pred
 #### 4. Logistic Regression
 Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval, or ratio-level independent variables. For more information about logistic regression click [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 
-<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/linear.png" width="800">
+<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/linear.png" width="1200">
 
 #### 5. K-Nearest Neighbors
 The k-nearest neighbor's algorithm (KNN) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many kinds of research in the past decades. For more information about KNN click [here](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
