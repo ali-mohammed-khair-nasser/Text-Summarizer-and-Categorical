@@ -150,5 +150,5 @@ Here is a list of sources I used to build this project:
 - Scikit learn tutorials from [scikit-learn.org](https://scikit-learn.org/stable/user_guide.html)
 - News classification tutorial on [youtube.com](https://www.youtube.com/watch?v=dtK7Xhn8XjY)
 - Text Preprocessing for NLP (Natural Language Processing) in [medium.com](https://medium.com/analytics-vidhya/text-preprocessing-for-nlp-natural-language-processing-beginners-to-master-fd82dfecf95)
-- Building a Text Summarizer Flask App on [youtube.com](https://www.youtube.com/watch?v=xvLQdP549NA&list=PLJ39kWiJXSiyAFG2W3CUPWaLhvR5CQmTd&index=9). I watched 70% of this video.
+- [Building a Text Summarizer Flask App](https://www.youtube.com/watch?v=xvLQdP549NA&list=PLJ39kWiJXSiyAFG2W3CUPWaLhvR5CQmTd&index=9). I watched 70% of this video.
 - Flask Tutorials playlist [here](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX).
