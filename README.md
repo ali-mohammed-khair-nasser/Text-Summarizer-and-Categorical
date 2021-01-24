@@ -107,7 +107,7 @@ The advantages of this feature extraction technique is:
 
 And here is a simple example of converting the words in each sentences in the dataset or the input text into a numiric values using the TF-IDF vectorizer:
 
-<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/tfidf.png" width="1200">
+<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/tfidf_explane.png" width="1200">
 
 ### Predict The Right Category Using Pre-trained Models
 I did trained 6 different models for both arabic and english datasets and all of this models built-in in the sklearn library, and this models give me a heigh accuracy score for the data classification. There is a simple comparison between this models:
