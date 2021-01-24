@@ -6,7 +6,7 @@ Summarization is the task of condensing a piece of text to a shorter version, re
 Natural Language Processing is the technology used to aid computers to understand the human’s natural language. It’s not an easy task teaching machines to understand how we communicate. Natural Language Processing which usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable.
 
 ### User Interface
-The user interface of this application builded using the web frontend languages like ``` HTML ``` ``` CSS ``` ``` javascript ``` and this is how it look like:
+The user interface (UI) is the point of human-computer interaction and communication in a device. This can include display screens, keyboards, a mouse and the appearance of a desktop. It is also the way through which a user interacts with an application or a website. The UI of this application builded using web languages like ``` HTML ``` ``` CSS ``` ``` javascript ``` and this is how it look like:
 
 <img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/ui.svg" width="1200">
 
