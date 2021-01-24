@@ -66,6 +66,8 @@ The next step is to calculate the sentences scores for each sentence so we split
 # Getting Text Category
 Here we have alot of works to do for extract the features from that text for use that features in classification algorithms. And in this section, we start to talk about text cleaning since most of urls or texts contain a lot of noise.
 
+<img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/get_category.png" width="1200">
+
 ### Text Cleaning and Pre-processing
 In Natural Language Processing (NLP), most of the text and documents contain many words that are redundant for text classification, such as stopwords, miss-spellings, slangs, and etc. In this section, we briefly explain some techniques and methods for text cleaning and pre-processing text documents. In many algorithms like statistical and probabilistic learning methods, noise and unnecessary features can negatively affect the overall perfomance. So, elimination of these features are extremely important. We will do multi steps to clear the input text and this steps is:
 
