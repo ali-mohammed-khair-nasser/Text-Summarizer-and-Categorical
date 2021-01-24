@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Home">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Home" clip-path="url(#clip-Home)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="1080" fill="#edf2f8"/>
+    <g id="Group_6" data-name="Group 6" transform="translate(44 47)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="220" height="112" rx="10" fill="#0fbcf9"/>
+      <g id="Group_1" data-name="Group 1" transform="translate(55 65)">
+        <text id="Write_Text" data-name="Write Text" transform="translate(55 19)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-55.425" y="0">WRITE TEXT</tspan></text>
+      </g>
+      <path id="ios-paper" d="M67.125,64V85.875H66.083V67.125H64V86.991A2.011,2.011,0,0,0,66.009,89H86.991A2.011,2.011,0,0,0,89,86.991V64Zm3.125,3.125h8.333v1.042H70.25Zm0,10.417h12.5v1.042H70.25Zm15.625,6.25H70.25V82.75H85.875Zm0-10.417H70.25V72.333H85.875Z" transform="translate(34.084 -38)" fill="#fff"/>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(524 47)">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="220" height="112" rx="10" fill="#edf2f8" opacity="0"/>
+      <g id="Group_3" data-name="Group 3" transform="translate(51.739 65)">
+        <text id="Upload_file" data-name="Upload file" transform="translate(59 19)" fill="#182d37" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-59.497" y="0">UPLOAD FILE</tspan></text>
+      </g>
+      <g id="ios-copy" transform="translate(99.054 24)">
+        <path id="Path_1" data-name="Path 1" d="M114.373,134.547V112H112v24.92h17.8v-2.373H114.373Z" transform="translate(-112 -108.44)" fill="#182d37"/>
+        <g id="Group_4" data-name="Group 4" transform="translate(3.56)">
+          <path id="Path_2" data-name="Path 2" d="M172.26,64H160V88.92h17.8V69.563Zm3.167,8.307h-5.933V66.373h1.187V71.12h4.747Z" transform="translate(-160 -64)" fill="#182d37"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(283.98 47)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="220" height="112" rx="10" transform="translate(0.02)" fill="#edf2f8" opacity="0"/>
+      <g id="Group_2" data-name="Group 2" transform="translate(42.159 65)">
+        <text id="get_from_link" data-name="get from link" transform="translate(68 18)" fill="#182d37" font-size="19" font-family="Roboto-Regular, Roboto"><tspan x="-68.499" y="0">GET FROM LINK</tspan></text>
+      </g>
+      <g id="ios-world" transform="translate(95.442 25)">
+        <path id="Path_3" data-name="Path 3" d="M62,48h-.034a14,14,0,0,0,0,28H62a14,14,0,0,0,0-28Zm0,26.883h-.034a12.879,12.879,0,0,1,0-25.759H62a12.879,12.879,0,1,1,0,25.759Z" transform="translate(-48 -48)" fill="#182d37"/>
+        <path id="Path_4" data-name="Path 4" d="M268.3,171.8a19.075,19.075,0,0,1-3.9.525v4.584h4.55A23.082,23.082,0,0,0,268.3,171.8Z" transform="translate(-249.835 -163.467)" fill="#182d37"/>
+        <path id="Path_5" data-name="Path 5" d="M264.3,82.5v5.512a17.78,17.78,0,0,0,3.621-.485C267.039,84.741,265.666,82.911,264.3,82.5Z" transform="translate(-249.741 -80.178)" fill="#182d37"/>
+        <path id="Path_6" data-name="Path 6" d="M193.4,87.335a18.11,18.11,0,0,0,3.648.491V82.3C195.682,82.7,194.288,84.528,193.4,87.335Z" transform="translate(-183.613 -79.991)" fill="#182d37"/>
+        <path id="Path_7" data-name="Path 7" d="M302.347,89.1a11.723,11.723,0,0,0-5.647-3.2,11.452,11.452,0,0,1,2.43,4.53A17.789,17.789,0,0,0,302.347,89.1Z" transform="translate(-279.961 -83.349)" fill="#182d37"/>
+        <path id="Path_8" data-name="Path 8" d="M337.693,152.006H343.3a11.7,11.7,0,0,0-2.659-6.906A18.871,18.871,0,0,1,337,146.635,24.027,24.027,0,0,1,337.693,152.006Z" transform="translate(-317.548 -138.564)" fill="#182d37"/>
+        <path id="Path_9" data-name="Path 9" d="M179.5,176.815h4.59v-4.584a18.88,18.88,0,0,1-3.931-.532A22.732,22.732,0,0,0,179.5,176.815Z" transform="translate(-170.649 -163.374)" fill="#182d37"/>
+        <path id="Path_10" data-name="Path 10" d="M268.857,264.3H264.3v4.577a18.682,18.682,0,0,1,3.9.525A23.018,23.018,0,0,0,268.857,264.3Z" transform="translate(-249.741 -249.741)" fill="#182d37"/>
+        <path id="Path_11" data-name="Path 11" d="M180.16,269.409a18.88,18.88,0,0,1,3.931-.532V264.3H179.5A22.618,22.618,0,0,0,180.16,269.409Z" transform="translate(-170.649 -249.741)" fill="#182d37"/>
+        <path id="Path_12" data-name="Path 12" d="M197.055,353.026V347.5a18.179,18.179,0,0,0-3.655.491C194.288,350.8,195.682,352.636,197.055,353.026Z" transform="translate(-183.613 -327.341)" fill="#182d37"/>
+        <path id="Path_13" data-name="Path 13" d="M296.7,363.237a11.787,11.787,0,0,0,5.654-3.2,17.789,17.789,0,0,0-3.217-1.333A11.488,11.488,0,0,1,296.7,363.237Z" transform="translate(-279.961 -337.788)" fill="#182d37"/>
+        <path id="Path_14" data-name="Path 14" d="M137.007,86.1a11.756,11.756,0,0,0-5.607,3.19,17.621,17.621,0,0,0,3.184,1.319A11.486,11.486,0,0,1,137.007,86.1Z" transform="translate(-125.787 -83.536)" fill="#182d37"/>
+        <path id="Path_15" data-name="Path 15" d="M337,269.671a18.757,18.757,0,0,1,3.648,1.535,11.7,11.7,0,0,0,2.659-6.906H337.7A24.467,24.467,0,0,1,337,269.671Z" transform="translate(-317.548 -249.741)" fill="#182d37"/>
+        <path id="Path_16" data-name="Path 16" d="M264.3,347.5v5.519c1.366-.411,2.739-2.241,3.621-5.035A17.782,17.782,0,0,0,264.3,347.5Z" transform="translate(-249.741 -327.341)" fill="#182d37"/>
+        <path id="Path_17" data-name="Path 17" d="M87.673,146.628a18.438,18.438,0,0,1-3.614-1.528,11.7,11.7,0,0,0-2.659,6.906h5.58A23.654,23.654,0,0,1,87.673,146.628Z" transform="translate(-79.152 -138.564)" fill="#182d37"/>
+        <path id="Path_18" data-name="Path 18" d="M86.88,264.3H81.3a11.7,11.7,0,0,0,2.659,6.906,18.854,18.854,0,0,1,3.614-1.528A24.434,24.434,0,0,1,86.88,264.3Z" transform="translate(-79.059 -249.741)" fill="#182d37"/>
+        <path id="Path_19" data-name="Path 19" d="M131.3,360.126a11.746,11.746,0,0,0,5.613,3.19,11.518,11.518,0,0,1-2.423-4.516A18.212,18.212,0,0,0,131.3,360.126Z" transform="translate(-125.693 -337.881)" fill="#182d37"/>
+      </g>
+    </g>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="700" height="854" rx="10" transform="translate(44 179)" fill="#fff"/>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(72 365)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+      <rect width="645" height="239" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="644" height="238" rx="9.5" fill="none"/>
+    </g>
+    <text id="_2._Enter_your_text" data-name="2. Enter your text" transform="translate(151 345)" fill="#182d37" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-78.975" y="0">2. Enter Your Text</tspan></text>
+    <text id="_3._select_classifier" data-name="3. select classifier" transform="translate(72 653)" fill="#182d37" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">3. Select Classifier</tspan></text>
+    <g id="Group_11" data-name="Group 11" transform="translate(4 3)">
+      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(68 670)" fill="#fff" stroke="#0fbcf9" stroke-width="2">
+        <rect width="205" height="50" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="203" height="48" rx="9" fill="none"/>
+      </g>
+      <text id="ridge_model" data-name="ridge model" transform="translate(170 700.5)" fill="#31b1ff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-44.781" y="0">Ridge Model</tspan></text>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(4 3)">
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(288 670)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="205" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="204" height="49" rx="9.5" fill="none"/>
+      </g>
+      <text id="random_forest" data-name="random forest" transform="translate(390 700.5)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-54.27" y="0">Random Forest</tspan></text>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(4 3)">
+      <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(508 670)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="205" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="204" height="49" rx="9.5" fill="none"/>
+      </g>
+      <text id="logistic_regression" data-name="logistic regression" transform="translate(610 700.5)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-69.836" y="0">Logistic Regression</tspan></text>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(4 -2)">
+      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(68 740)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="205" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="204" height="49" rx="9.5" fill="none"/>
+      </g>
+      <text id="kneighbors_model" data-name="kneighbors model" transform="translate(170 770.5)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-64.516" y="0">Kneighbors Model</tspan></text>
+    </g>
+    <g id="Group_15" data-name="Group 15" transform="translate(4 -2)">
+      <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(288 740)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="205" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="204" height="49" rx="9.5" fill="none"/>
+      </g>
+      <text id="gaussian_nb" data-name="gaussian nb" transform="translate(390 770.5)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-45.34" y="0">Gaussian Nb</tspan></text>
+    </g>
+    <g id="Group_16" data-name="Group 16" transform="translate(4 -2)">
+      <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(508 740)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="205" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="204" height="49" rx="9.5" fill="none"/>
+      </g>
+      <text id="decision_tree" data-name="decision tree" transform="translate(610 770.5)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-48.07" y="0">Decision Tree</tspan></text>
+    </g>
+    <text id="_4._how_many_sentences_" data-name="4. how many sentences?" transform="translate(72 837)" fill="#182d37" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">4. How Many Sentences?</tspan></text>
+    <text id="Type_your_text_here_to_summarize_and_get_category..." data-name="Type your text here to summarize and get category..." transform="translate(275 396)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto" opacity="0.6"><tspan x="-185.516" y="0">Type your text here to summarize and get category...</tspan></text>
+    <g id="Group_18" data-name="Group 18" transform="translate(4 -7)">
+      <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(143 864)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="102" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="101" height="49" rx="9.5" fill="none"/>
+      </g>
+      <text id="_10" data-name="10" transform="translate(184 895.424)" fill="#182d37" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">10</tspan></text>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(4 -7)">
+      <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(260 864)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="60" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="59" height="49" rx="9.5" fill="none"/>
+      </g>
+      <path id="ios-arrow-back" d="M10,1.688,8.318,0,0,8.333H0l8.318,8.333L10,14.979,3.37,8.333Z" transform="translate(298.333 884.148) rotate(90)" fill="#9293b0"/>
+    </g>
+    <g id="Group_17" data-name="Group 17" transform="translate(4 -7)">
+      <g id="Rectangle_14" data-name="Rectangle 14" transform="translate(68 864)" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="60" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="59" height="49" rx="9.5" fill="none"/>
+      </g>
+      <path id="ios-arrow-back-2" data-name="ios-arrow-back" d="M10,14.979,8.318,16.667,0,8.333H0L8.318,0,10,1.688,3.37,8.333Z" transform="translate(89.667 894.148) rotate(-90)" fill="#9293b0"/>
+    </g>
+    <g id="Group_20" data-name="Group 20" transform="translate(4 -5)">
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="373" height="50" rx="10" transform="translate(204 958)" fill="#0fbcf9"/>
+      <text id="get_summary_category" data-name="get summary &amp; category" transform="translate(389 989.581)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-111.665" y="0">Get Summary &amp; Category</tspan></text>
+    </g>
+    <text id="_1._Select_Language" data-name="1. Select Language" transform="translate(72 226)" fill="#182d37" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">1. Select Language</tspan></text>
+    <g id="Group_10" data-name="Group 10" transform="translate(-316 -601)">
+      <g id="Group_9" data-name="Group 9" transform="translate(388 847)">
+        <g id="Rectangle_17" data-name="Rectangle 17" fill="#fff" stroke="#0fbcf9" stroke-width="2">
+          <rect width="125" height="50" rx="10" stroke="none"/>
+          <rect x="1" y="1" width="123" height="48" rx="9" fill="none"/>
+        </g>
+      </g>
+      <text id="English" transform="translate(450 877.5)" fill="#31b1ff" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-26.164" y="0">English</tspan></text>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(212 246)">
+      <g id="Rectangle_18" data-name="Rectangle 18" fill="#f9f9fb" stroke="#e2e2ea" stroke-width="1">
+        <rect width="125" height="50" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="124" height="49" rx="9.5" fill="none"/>
+      </g>
+      <text id="Arabic" transform="translate(62.252 30.5)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-22.738" y="0">Arabic</tspan></text>
+    </g>
+    <rect id="Rectangle_19" data-name="Rectangle 19" width="1088" height="585" rx="10" transform="translate(786 47)" fill="#fff"/>
+    <rect id="Rectangle_20" data-name="Rectangle 20" width="1088" height="360" rx="10" transform="translate(786 673)" fill="#fff"/>
+    <text id="Your_input_text" data-name="Your input text" transform="translate(810 85)" fill="#182d37" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Your Input Text</tspan></text>
+    <text id="Text_Summary" data-name="Text Summary" transform="translate(810 715)" fill="#182d37" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Text Summary</tspan></text>
+    <text id="Machine_Learning_as_subfield_of_AI_16_Part_of_Machine_Learning_as_subfield_of_AI_or_part_of_AI_as_subfield_of_Machine_Learning_17_As_a_scientific_endeavor_machine_learning_grew_out_of_the_quest_for_artificial_intelligence._In_the_early_days_of_AI_as_an_" data-name="Machine Learning as subfield of AI[16] Part of Machine Learning as subfield of AI or part of AI as subfield of Machine Learning[17]
+As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. In the early days of AI as an " transform="translate(810 110)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Machine Learning as subfield of AI[16] Part of Machine Learning as subfield of AI or part of AI as subfield of Machine Learning[17]</tspan><tspan x="0" y="43">As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. In the early days of AI as an academic discipline, </tspan><tspan x="0" y="71">some researchers were interested in having machines learn from data. They attempted to approach the problem with various symbolic </tspan><tspan x="0" y="99">methods, as well as what was then termed &quot;neural networks&quot;; these were mostly perceptrons and other models that were later found to be </tspan><tspan x="0" y="127">reinventions of the generalized linear models of statistics.[18] Probabilistic reasoning was also employed, especially in automated medical </tspan><tspan x="0" y="155">diagnosis.[19]:488</tspan><tspan x="0" y="183"></tspan><tspan x="0" y="211">However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic </tspan><tspan x="0" y="239">systems were plagued by theoretical and practical problems of data acquisition and representation.[19]:488 By 1980, expert systems had come </tspan><tspan x="0" y="267">to dominate AI, and statistics was out of favor.[20] Work on symbolic/knowledge-based learning did continue within AI, leading to inductive </tspan><tspan x="0" y="295">logic programming, but the more statistical line of research was now outside the field of AI proper, in pattern recognition and information </tspan><tspan x="0" y="323">retrieval.[19]:708–710; 755 Neural networks research had been abandoned by AI and computer science around the same time. This line, too, </tspan><tspan x="0" y="351">was continued outside the AI/CS field, as &quot;connectionism&quot;, by researchers from other disciplines including Hopfield, Rumelhart and Hinton. </tspan><tspan x="0" y="379">Their main success came in the mid-1980s with the reinvention of backpropagation.[19]:25</tspan><tspan x="0" y="407">Machine learning (ML), reorganized as a separate field, started to flourish in the 1990s. The field changed its goal from achieving artificial </tspan><tspan x="0" y="435">intelligence to tackling solvable problems of a practical nature. It shifted focus away from the symbolic approaches it had inherited from AI</tspan><tspan x="0" y="463">methods, as well as what was then termed &quot;neural networks&quot;; these were mostly perceptrons and other models that were later found to be </tspan><tspan x="0" y="491">reinventions of the generalized linear models of statistics.[18] Probabilistic reasoning was also employed, especially in automated medical</tspan></text>
+    <text id="Machine_Learning_as_subfield_of_AI_16_Part_of_Machine_Learning_as_subfield_of_AI_or_part_of_AI_as_subfield_of_Machine_Learning_17_As_a_scientific_endeavor_machine_learning_grew_out_of_the_quest_for_artificial_intelligence._In_the_early_days_of_AI_as_an_2" data-name="Machine Learning as subfield of AI[16] Part of Machine Learning as subfield of AI or part of AI as subfield of Machine Learning[17] As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. In the early days of AI as an " transform="translate(810 740)" fill="#9293b0" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Machine Learning as subfield of AI[16] Part of Machine Learning as subfield of AI or part of AI as subfield of Machine Learning[17] As a scientific </tspan><tspan x="0" y="43">endeavor, machine learning grew out of the quest for artificial intelligence. In the early days of AI as an academic discipline, some researchers were </tspan><tspan x="0" y="71">interested in having machines learn from data. They attempted to approach the problem with various symbolic methods, as well as what was then </tspan><tspan x="0" y="99">termed &quot;neural networks&quot;; these were mostly perceptrons and other models that were later found to be reinventions of the generalized linear models </tspan><tspan x="0" y="127">of statistics.[18] Probabilistic reasoning was also employed, especially in automated medical diagnosis.[19]:488</tspan></text>
+    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(1868 47)" fill="#9293b0" stroke="#9293b0" stroke-width="1" opacity="0.53">
+      <rect width="8" height="239" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="238" rx="3.5" fill="none"/>
+    </g>
+    <text id="Text_Category" data-name="Text Category" transform="translate(810 928)" fill="#182d37" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Text Category</tspan></text>
+    <g id="Group_21" data-name="Group 21" transform="translate(606 -5)">
+      <rect id="Rectangle_16-2" data-name="Rectangle 16" width="294" height="50" rx="10" transform="translate(204 958)" fill="#dc2f02"/>
+      <text id="Technology" transform="translate(349.963 989.581)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-51.216" y="0">Technology</tspan></text>
+    </g>
+  </g>
+</svg>
